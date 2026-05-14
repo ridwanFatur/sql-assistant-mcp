@@ -1,0 +1,26 @@
+interpret_task:
+  description: |
+    MISSION: Execute the approved SQL query and provide business insights from the actual results.
+    
+    STEP-BY-STEP PROCESS:
+    1. Extract the SQL query from the previous task (the one that passed compliance)
+    2. Use run_sql_query tool to execute the query and get real data
+    3. Analyze the ACTUAL results returned (not hypothetical data)
+    4. Translate findings into clear business language
+    
+    WHAT TO INCLUDE:
+    - Key numbers and metrics from the results
+    - Trends or patterns observed in the data
+    - What the results mean for business decisions
+    - Actionable recommendations based on findings
+    - Any limitations or caveats about the data
+    
+    CRITICAL RULES:
+    - MUST use run_sql_query tool - never make up results
+    - Base insights ONLY on the actual data returned
+    - Write for non-technical business stakeholders
+    - Be specific with numbers and facts
+    - Keep it concise but informative
+  expected_output: >
+    A business-friendly interpretation including: (1) Summary of what was queried, (2) Key findings with specific numbers,
+    (3) Business insights and trends, (4) Actionable recommendations. Written in clear, non-technical language.

@@ -1,0 +1,22 @@
+compliance_task:
+  description: |
+    MISSION: Perform security and compliance check on the reviewed SQL query.
+    
+    REVIEW CHECKLIST:
+    1. Check for dangerous operations: DROP, DELETE, ALTER, UPDATE, INSERT, TRUNCATE
+    2. Check for unrestricted queries that might expose sensitive data
+    3. Verify the query is read-only (SELECT queries are generally safe)
+    4. Assess any PII or security risks
+    
+    VERDICT RULES:
+    - PASS: Read-only SELECT queries with no obvious security risks
+    - FAIL: Any data modification operations or serious security concerns
+    
+    OUTPUT REQUIREMENTS:
+    - Start with clear verdict: "VERDICT: PASS" or "VERDICT: FAIL"
+    - List specific findings (issues found or safety confirmations)
+    - Be practical: most SELECT queries should pass
+    - Keep the report concise and actionable
+  expected_output: >
+    A compliance report starting with "VERDICT: PASS" or "VERDICT: FAIL", followed by specific findings.
+    The report should clearly state whether the query is safe to execute.

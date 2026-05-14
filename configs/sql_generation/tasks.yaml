@@ -1,0 +1,42 @@
+generate_sql_task:
+  description: |
+    MISSION: Generate a SQL query that answers this user question: "{user_input}"
+    {previous_attempts_context}
+    
+    STEP-BY-STEP PROCESS:
+    1. Use get_database_schema tool to see all available tables, columns, and sample data
+    2. Identify which tables and columns are needed to answer the question
+    3. If you need to understand data patterns, use get_table_sample or get_column_stats
+    4. Write a SQL query using ONLY the tables and columns that exist in the schema
+    5. Double-check that every table name and column name in your query exists in the schema
+    
+    CRITICAL RULES:
+    - NEVER invent or assume table/column names - use get_database_schema first
+    - Return ONLY the SQL query as plain text (no markdown, no ```sql, no explanations)
+    - The query must be syntactically correct and executable
+    - Use proper SQL syntax: JOINs, WHERE clauses, GROUP BY, ORDER BY, LIMIT as needed
+    - If the question cannot be answered with available data, return: -- Cannot answer: [reason]
+    
+    Database schema is available via tools. USER QUESTION: {user_input}
+  expected_output: A single, clean SQL query without any formatting or explanation. Just the raw SQL text ready for execution.
+
+review_sql_task:
+  description: |
+    MISSION: Review and validate the SQL query from the previous task.
+    
+    STEP-BY-STEP PROCESS:
+    1. Extract the SQL query from the previous task output
+    2. Use validate_sql_syntax tool to check if the syntax is correct
+    3. Use get_database_schema to verify all table/column names exist
+    4. If the query passes validation, return it UNCHANGED
+    5. If there are errors, fix them while keeping the original logic
+    
+    CRITICAL RULES:
+    - Use validate_sql_syntax tool to check syntax
+    - DO NOT rewrite a working query - if it's valid, return it as-is
+    - Only make changes if there are actual errors
+    - Return ONLY the SQL query (no markdown, no ```sql, no explanations)
+    - Maintain the original intent of the query
+    
+    If the query passes all checks, output it exactly as received.
+  expected_output: The validated SQL query as plain text, either unchanged (if correct) or fixed (if errors found). No formatting or explanation.
