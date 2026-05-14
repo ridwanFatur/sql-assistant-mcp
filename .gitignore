@@ -3,6 +3,7 @@
 Note.txt
 dummy.py
 dummy.ipynb
+dummy/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
