@@ -9,7 +9,7 @@ from mcp.server.fastmcp import FastMCP
 from starlette.applications import Starlette
 from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
-from shared.db_helper import (
+from utils_db_helper import (
 	get_database_path,
 	clean_sql_query,
 )
