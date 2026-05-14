@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_98_024",
+  "description": "Database with tables from table_name_98 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the total number of Goals with a nationality of England, and position of DF, and a Crewe Alexandra career is 1958 1962, and less than 170 appearances?",
+      "category": "Count/Aggregate",
+      "difficulty": "Easy"
+    }
+  ]
+}

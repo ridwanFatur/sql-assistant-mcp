@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "if david williams was chosen 208th overall , and greg schaum was chosen 186th , how many picks separate the two ?",
+      "sql": "SELECT ABS((SELECT \"pick #\" FROM table_204_70 WHERE \"player\" = 'David Williams') - (SELECT \"pick #\" FROM table_204_70 WHERE \"player\" = 'Greg Schaum'));",
+      "answer": [
+        {
+          "ABS((SELECT \"pick #\" FROM table_204_70 WHERE \"player\" = 'David Williams') - (SELECT \"pick #\" FROM table_204_70 WHERE \"player\" = 'Greg Schaum'))": 22.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_28_002",
+  "description": "Database with tables from table_name_28 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Where the ship is Dahlgren what is the build as?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

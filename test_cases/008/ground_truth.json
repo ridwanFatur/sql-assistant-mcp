@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "The Fall 2005 CMBIOL 995 classes are taught by how many professors ?",
+      "sql": "SELECT COUNT(DISTINCT oi.instructor_id) FROM course_offering co JOIN offering_instructor oi ON co.offering_id = oi.offering_id JOIN course c ON co.course_id = c.course_id JOIN semester s ON co.semester = s.semester_id WHERE c.department = 'CMBIOL' AND c.number = '995' AND s.semester = 'Fall' AND s.year = 2005;",
+      "answer": [
+        {
+          "COUNT(DISTINCT oi.instructor_id)": 2
+        }
+      ]
+    }
+  ]
+}

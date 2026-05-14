@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many weeks had an attendance of over 68,000?",
+      "sql": "SELECT COUNT(*) FROM table_name_74 WHERE attendance > 68000;",
+      "answer": [
+        {
+          "COUNT(*)": 13
+        }
+      ]
+    }
+  ]
+}

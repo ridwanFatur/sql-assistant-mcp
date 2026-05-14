@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_8438_036",
+  "description": "Database with tables from table_8438 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Team 1, Everton, has what as a 1st leg?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

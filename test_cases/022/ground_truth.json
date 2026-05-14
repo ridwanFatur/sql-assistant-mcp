@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Show all destinations and the number of flights to each destination by a bar chart, rank in desc by the total number.",
+      "sql": "SELECT destination, COUNT(*) FROM flight GROUP BY destination ORDER BY COUNT(*) DESC;",
+      "answer": [
+        {
+          "destination": "New York",
+          "COUNT(*)": 5
+        },
+        {
+          "destination": "San Antonio",
+          "COUNT(*)": 4
+        },
+        {
+          "destination": "Los Angeles",
+          "COUNT(*)": 4
+        },
+        {
+          "destination": "Phoenix",
+          "COUNT(*)": 2
+        },
+        {
+          "destination": "Philadelphia",
+          "COUNT(*)": 2
+        },
+        {
+          "destination": "Houston",
+          "COUNT(*)": 2
+        },
+        {
+          "destination": "Chicago",
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

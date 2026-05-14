@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Which of the least difficult PreMajor courses has the largest class size ?",
+      "sql": "SELECT c.name FROM course c JOIN program_course pc ON c.course_id = pc.course_id WHERE pc.category = 'PreMajor' ORDER BY c.num_enrolled DESC LIMIT 1;",
+      "answer": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Post Migration from and to. Displays number of post migrated per site",
+      "sql": "SELECT COUNT(*) FROM PostsWithDeleted WHERE DeletionDate IS NOT NULL;",
+      "answer": [
+        {
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

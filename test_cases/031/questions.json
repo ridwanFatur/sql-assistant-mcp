@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_11622829_1_031",
+  "description": "Database with tables from table_11622829_1 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "For which tournaments was the score 135 (-7)?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

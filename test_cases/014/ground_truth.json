@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the prisoner that is older than 45 and has served less than 22 years on death row?",
+      "sql": "SELECT name FROM table_name_39 WHERE CAST(current_age AS INTEGER) > 45 AND CAST(years_on_death_row AS INTEGER) < 22;",
+      "answer": [
+        {
+          "name": "Mike Smith"
+        },
+        {
+          "name": "James Brown"
+        },
+        {
+          "name": "Daniel Anderson"
+        },
+        {
+          "name": "Michael Thompson"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_19688_021",
+  "description": "Database with tables from table_19688 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "is nominated for anything?",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

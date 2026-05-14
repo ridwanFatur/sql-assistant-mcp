@@ -1,0 +1,12 @@
+{
+  "test_case_name": "demographic_007",
+  "description": "Database with tables from demographic schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "how many female patients are aged below 36 years?",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

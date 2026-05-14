@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Score of 3 - 2 had what record?",
+      "sql": "SELECT \"Record\" FROM table_33880 WHERE \"Score\" = '3-2';",
+      "answer": [
+        {
+          "Record": "7-0"
+        },
+        {
+          "Record": "12-8"
+        }
+      ]
+    }
+  ]
+}

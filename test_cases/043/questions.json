@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_50429_043",
+  "description": "Database with tables from table_50429 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who was the Worship Leader for the song that was 7:05 long?",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

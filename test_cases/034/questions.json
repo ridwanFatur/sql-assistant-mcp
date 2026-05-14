@@ -1,0 +1,12 @@
+{
+  "test_case_name": "Accounts_034",
+  "description": "Database with tables from Accounts schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Show the number of accounts for all accounts by the customer with first name 'Meaghan' opened in each day. Bin the account open day by weekday in a bar chart.",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

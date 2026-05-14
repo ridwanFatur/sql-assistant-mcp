@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_204_70_032",
+  "description": "Database with tables from table_204_70 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "if david williams was chosen 208th overall , and greg schaum was chosen 186th , how many picks separate the two ?",
+      "category": "Count/Aggregate",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_15_019",
+  "description": "Database with tables from table_name_15 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the average Top-10 with a greater than 11 Top-25 and a less than 2 wins?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Draw a bar chart for what is the average base price of rooms, for each bed type?, sort by average base price in ascending.",
+      "sql": "SELECT bedType, AVG(basePrice) FROM Rooms GROUP BY bedType ORDER BY AVG(basePrice) ASC;",
+      "answer": [
+        {
+          "bedType": "Double",
+          "AVG(basePrice)": 120.0
+        },
+        {
+          "bedType": "Queen",
+          "AVG(basePrice)": 123.33333333333333
+        },
+        {
+          "bedType": "King",
+          "AVG(basePrice)": 136.66666666666666
+        }
+      ]
+    }
+  ]
+}

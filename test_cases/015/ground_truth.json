@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "where is hte second place winner from united kingdom?",
+      "sql": "SELECT winner FROM table_1359212_2 WHERE second_place = 'United Kingdom';",
+      "answer": [
+        {
+          "winner": "United States"
+        },
+        {
+          "winner": "France"
+        },
+        {
+          "winner": "United States"
+        }
+      ]
+    }
+  ]
+}

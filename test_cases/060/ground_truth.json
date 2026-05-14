@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the number of points when goals were 29 30?",
+      "sql": "SELECT points FROM table_name_98 WHERE goals = '29 30';",
+      "answer": [
+        {
+          "points": 75
+        }
+      ]
+    }
+  ]
+}

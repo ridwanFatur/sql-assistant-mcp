@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "is nominated for anything?",
+      "sql": "SELECT COUNT(*) FROM table_19688 WHERE \"Result\" = 'Nominated';",
+      "answer": [
+        {
+          "COUNT(*)": 9
+        }
+      ]
+    }
+  ]
+}

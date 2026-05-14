@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the person that has 119.5 m?",
+      "sql": "SELECT \"Name\" FROM table_34892 WHERE \"1st  ( m ) \" = 119.5;",
+      "answer": [
+        {
+          "Name": "Champion"
+        }
+      ]
+    }
+  ]
+}

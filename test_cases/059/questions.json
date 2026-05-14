@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_34892_059",
+  "description": "Database with tables from table_34892 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the person that has 119.5 m?",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

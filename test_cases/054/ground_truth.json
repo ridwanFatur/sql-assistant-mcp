@@ -1,0 +1,31 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "For those employees whose salary is in the range of 8000 and 12000 and commission is not null or department number does not equal to 40, show me about the correlation between salary and department_id in a scatter chart.",
+      "sql": "SELECT SALARY, DEPARTMENT_ID FROM employees WHERE (SALARY BETWEEN 8000 AND 12000 AND COMMISSION_PCT IS NOT NULL) OR DEPARTMENT_ID != 40;",
+      "answer": [
+        {
+          "SALARY": 75000.0,
+          "DEPARTMENT_ID": 10.0
+        },
+        {
+          "SALARY": 80000.0,
+          "DEPARTMENT_ID": 10.0
+        },
+        {
+          "SALARY": 60000.0,
+          "DEPARTMENT_ID": 20.0
+        },
+        {
+          "SALARY": 85000.0,
+          "DEPARTMENT_ID": 30.0
+        },
+        {
+          "SALARY": 55000.0,
+          "DEPARTMENT_ID": 30.0
+        }
+      ]
+    }
+  ]
+}

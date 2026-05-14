@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the averag scored for 2011 long teng cup and 2 october 2011",
+      "sql": "SELECT AVG(scored) FROM table_name_64 WHERE competition = 'Long Teng Cup' AND date = '2 October 2011';",
+      "answer": [
+        {
+          "AVG(scored)": 2.5
+        }
+      ]
+    }
+  ]
+}

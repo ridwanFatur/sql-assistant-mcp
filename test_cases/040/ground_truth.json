@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Position of fullback has what highest weight?",
+      "sql": "SELECT MAX(weight) FROM table_name_33 WHERE position = 'Fullback';",
+      "answer": [
+        {
+          "MAX(weight)": 290
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_1359212_2_015",
+  "description": "Database with tables from table_1359212_2 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "where is hte second place winner from united kingdom?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

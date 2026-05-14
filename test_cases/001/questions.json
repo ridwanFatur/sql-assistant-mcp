@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_89_001",
+  "description": "Database with tables from table_name_89 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the score for toronto visitor and record of 29-17-8",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

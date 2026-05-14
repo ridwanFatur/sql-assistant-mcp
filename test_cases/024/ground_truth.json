@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the total number of Goals with a nationality of England, and position of DF, and a Crewe Alexandra career is 1958 1962, and less than 170 appearances?",
+      "sql": "SELECT SUM(CAST(goals AS INTEGER)) FROM table_name_98 WHERE nationality = 'England' AND position = 'DF' AND crewe_alexandra_career = '1958 1962' AND CAST(appearances AS INTEGER) < 170;",
+      "answer": [
+        {
+          "SUM(CAST(goals AS INTEGER))": 23
+        }
+      ]
+    }
+  ]
+}

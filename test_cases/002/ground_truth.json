@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Where the ship is Dahlgren what is the build as?",
+      "sql": "SELECT built_as FROM table_name_28 WHERE ship = 'Dahlgren';",
+      "answer": [
+        {
+          "built_as": "Destroyer"
+        }
+      ]
+    }
+  ]
+}

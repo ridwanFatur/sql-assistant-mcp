@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Tell me the result for warsaw 1929",
+      "sql": "SELECT result FROM table_name_8 WHERE location = 'Warsaw' AND year = '1929';",
+      "answer": [
+        {
+          "result": "2-1"
+        }
+      ]
+    }
+  ]
+}

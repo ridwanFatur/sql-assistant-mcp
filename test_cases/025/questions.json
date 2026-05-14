@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_64_025",
+  "description": "Database with tables from table_name_64 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the averag scored for 2011 long teng cup and 2 october 2011",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

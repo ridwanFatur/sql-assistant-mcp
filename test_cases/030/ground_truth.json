@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "what was the largest prize awarded to soviet song in 2004 ?",
+      "sql": "SELECT \"prize money\" FROM table_203_282 WHERE \"race\" = 'Soviet Song' AND \"date\" LIKE '2004%' ORDER BY CAST(REPLACE(REPLACE(\"prize money\", '£', ''), ',', '') AS INTEGER) DESC LIMIT 1;",
+      "answer": [
+        {
+          "prize money": "£100,000"
+        }
+      ]
+    }
+  ]
+}

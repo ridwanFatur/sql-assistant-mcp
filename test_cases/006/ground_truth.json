@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is the daily minimum red blood cells value for patient 19059 this year?",
+      "sql": "SELECT MIN(valuenum) FROM labevents WHERE subject_id = 19059;",
+      "answer": [
+        {
+          "MIN(valuenum)": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_39_014",
+  "description": "Database with tables from table_name_39 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the prisoner that is older than 45 and has served less than 22 years on death row?",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

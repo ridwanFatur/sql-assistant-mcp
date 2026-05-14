@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_8_023",
+  "description": "Database with tables from table_name_8 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Tell me the result for warsaw 1929",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

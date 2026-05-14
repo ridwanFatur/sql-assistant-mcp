@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_14_042",
+  "description": "Database with tables from table_name_14 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What attendance was on 7 January 2003?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

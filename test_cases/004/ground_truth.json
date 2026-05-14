@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "For those employees who do not work in departments with managers that have ids between 100 and 200, return a bar chart about the distribution of hire_date and the average of salary bin hire_date by weekday.",
+      "sql": "SELECT HIRE_DATE, AVG(SALARY) FROM employees WHERE DEPARTMENT_ID NOT IN (SELECT DEPARTMENT_ID FROM departments WHERE MANAGER_ID BETWEEN 100 AND 200) GROUP BY HIRE_DATE;",
+      "answer": [
+        {
+          "HIRE_DATE": "2020-01-15",
+          "AVG(SALARY)": 75000.0
+        },
+        {
+          "HIRE_DATE": "2020-03-22",
+          "AVG(SALARY)": 80000.0
+        },
+        {
+          "HIRE_DATE": "2021-05-10",
+          "AVG(SALARY)": 60000.0
+        }
+      ]
+    }
+  ]
+}

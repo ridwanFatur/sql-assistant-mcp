@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the lowest position for a driver with 2 points?",
+      "sql": "SELECT MIN(\"Pos\") FROM table_26006 WHERE \"Points\" = 2;",
+      "answer": [
+        {
+          "MIN(\"Pos\")": 11.0
+        }
+      ]
+    }
+  ]
+}

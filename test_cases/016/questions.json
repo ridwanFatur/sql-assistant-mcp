@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_66960_016",
+  "description": "Database with tables from table_66960 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the D 47 which has D 42 of d 22",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

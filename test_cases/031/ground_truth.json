@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "For which tournaments was the score 135 (-7)?",
+      "sql": "SELECT tournament FROM table_11622829_1 WHERE score = '135 (-7)';",
+      "answer": [
+        {
+          "tournament": "Masters"
+        },
+        {
+          "tournament": "US Open"
+        }
+      ]
+    }
+  ]
+}

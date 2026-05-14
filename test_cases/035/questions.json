@@ -1,0 +1,12 @@
+{
+  "test_case_name": "Apartment_Buildings_035",
+  "description": "Database with tables from Apartment_Buildings schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Return a bar chart about the number bookings for each apartment number.",
+      "category": "General Query",
+      "difficulty": "Hard"
+    }
+  ]
+}

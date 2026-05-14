@@ -1,0 +1,12 @@
+{
+  "test_case_name": "Ref_Detention_Type_029",
+  "description": "Database with tables from Ref_Detention_Type schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What are the code and description of the least frequent detention type ?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What attendance was on 7 January 2003?",
+      "sql": "SELECT attendance FROM table_name_14 WHERE date = '7 January 2003';",
+      "answer": [
+        {
+          "attendance": "32500"
+        }
+      ]
+    }
+  ]
+}

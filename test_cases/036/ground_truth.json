@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Team 1, Everton, has what as a 1st leg?",
+      "sql": "SELECT \"1st leg\" FROM table_8438 WHERE \"Team 1\" = 'Everton';",
+      "answer": [
+        {
+          "1st leg": "2-1"
+        },
+        {
+          "1st leg": "3-3"
+        },
+        {
+          "1st leg": "2-1"
+        }
+      ]
+    }
+  ]
+}

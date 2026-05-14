@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the third member of the third conservative party, and the second liberal party?",
+      "sql": "SELECT \"Third member\" FROM table_40457 WHERE \"Election\" = 3 AND \"Third party\" = 'Conservative' AND \"Second party\" = 'Liberal';",
+      "answer": [
+        {
+          "Third member": "Charlie"
+        }
+      ]
+    }
+  ]
+}

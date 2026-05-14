@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "how many female patients are aged below 36 years?",
+      "sql": "SELECT COUNT(*) FROM patients WHERE gender = 'F';",
+      "answer": [
+        {
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

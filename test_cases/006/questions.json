@@ -1,0 +1,12 @@
+{
+  "test_case_name": "prescriptions_006",
+  "description": "Database with tables from prescriptions schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is the daily minimum red blood cells value for patient 19059 this year?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Hard"
+    }
+  ]
+}

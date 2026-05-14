@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_24_051",
+  "description": "Database with tables from table_name_24 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who built michael schumacher's car that went under 31 laps?",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who built michael schumacher's car that went under 31 laps?",
+      "sql": "SELECT constructor FROM table_name_24 WHERE driver = 'Michael Schumacher' AND CAST(laps AS INTEGER) < 31;",
+      "answer": [
+        {
+          "constructor": "Ferrari"
+        }
+      ]
+    }
+  ]
+}

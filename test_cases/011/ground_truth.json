@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the capacity for the Home Venue of the New Zealand Breakers club?",
+      "sql": "SELECT \"Capacity\" FROM table_30476 WHERE \"Club\" = 'New Zealand Breakers';",
+      "answer": [
+        {
+          "Capacity": "12,000"
+        }
+      ]
+    }
+  ]
+}

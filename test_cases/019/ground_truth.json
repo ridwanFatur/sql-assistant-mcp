@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the average Top-10 with a greater than 11 Top-25 and a less than 2 wins?",
+      "sql": "SELECT AVG(top_10) FROM table_name_15 WHERE CAST(top_25 AS INTEGER) > 11 AND CAST(wins AS INTEGER) < 2;",
+      "answer": [
+        {
+          "AVG(top_10)": 11.833333333333334
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "program_008",
+  "description": "Database with tables from program schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "The Fall 2005 CMBIOL 995 classes are taught by how many professors ?",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

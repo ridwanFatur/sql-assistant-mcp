@@ -1,0 +1,12 @@
+{
+  "test_case_name": "procedures_057",
+  "description": "Database with tables from procedures schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many of the patients born before the year 2060 had pleural fluid tested by the lab?",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

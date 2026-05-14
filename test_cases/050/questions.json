@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_28215780_4_050",
+  "description": "Database with tables from table_28215780_4 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the title(s) of episodes written by aron eli coleite?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

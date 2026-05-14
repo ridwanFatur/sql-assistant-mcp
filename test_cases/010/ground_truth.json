@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the median household income in Valley County?",
+      "sql": "SELECT \"Median household income\" FROM table_12114 WHERE \"County\" = 'Valley County';",
+      "answer": [
+        {
+          "Median household income": "$67,800"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the highest number won with a difference of 1?",
+      "sql": "SELECT MAX(\"Won\") FROM table_20037 WHERE \"Difference\" = '1';",
+      "answer": [
+        {
+          "MAX(\"Won\")": null
+        }
+      ]
+    }
+  ]
+}

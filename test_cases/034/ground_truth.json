@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Show the number of accounts for all accounts by the customer with first name 'Meaghan' opened in each day. Bin the account open day by weekday in a bar chart.",
+      "sql": "SELECT strftime('%w', date_account_opened) as weekday, COUNT(*) FROM Accounts WHERE customer_id IN (SELECT customer_id FROM Customers WHERE customer_first_name = 'Meaghan') GROUP BY strftime('%w', date_account_opened) ORDER BY weekday;",
+      "answer": [
+        {
+          "weekday": "1",
+          "COUNT(*)": 1
+        },
+        {
+          "weekday": "2",
+          "COUNT(*)": 1
+        },
+        {
+          "weekday": "6",
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

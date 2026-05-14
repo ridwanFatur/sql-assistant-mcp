@@ -1,0 +1,12 @@
+{
+  "test_case_name": "Reservations_038",
+  "description": "Database with tables from Reservations schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Draw a bar chart for what is the average base price of rooms, for each bed type?, sort by average base price in ascending.",
+      "category": "Statistics",
+      "difficulty": "Medium"
+    }
+  ]
+}

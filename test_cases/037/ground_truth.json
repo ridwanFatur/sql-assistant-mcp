@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the director of the series ' House of Cards ' produced by Netflix ?",
+      "sql": "SELECT d.name FROM director d JOIN directed_by db ON d.did = db.did JOIN tv_series t ON db.msid = t.sid JOIN made_by mb ON t.sid = mb.msid JOIN company c ON mb.pid IN (SELECT pid FROM producer) WHERE t.title = 'House of Cards' AND c.name = 'Netflix';",
+      "answer": [
+        {
+          "name": "David Fincher"
+        }
+      ]
+    }
+  ]
+}

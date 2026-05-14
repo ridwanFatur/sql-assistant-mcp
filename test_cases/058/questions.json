@@ -1,0 +1,12 @@
+{
+  "test_case_name": "Lessons_058",
+  "description": "Database with tables from Lessons schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Bar chart x axis customer status code y axis the total number, and could you order Y-axis in descending order?",
+      "category": "Statistics",
+      "difficulty": "Hard"
+    }
+  ]
+}

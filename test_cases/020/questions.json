@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_203_692_020",
+  "description": "Database with tables from table_203_692 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is olle ahlunds club and his position ?",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "give me the number of patients whose ethnicity is white and icu stay id is 242681?",
+      "sql": "SELECT COUNT(*) FROM icustays WHERE icustay_id = 242681;",
+      "answer": [
+        {
+          "COUNT(*)": 0
+        }
+      ]
+    }
+  ]
+}

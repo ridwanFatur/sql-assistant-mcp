@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "provide the number of patients whose year of death is less than or equal to 2131 and diagnoses icd9 code is 20972?",
+      "sql": "SELECT COUNT(DISTINCT p.subject_id) FROM patients p JOIN diagnoses_icd d ON p.subject_id = d.subject_id WHERE d.icd9_code = '20972';",
+      "answer": [
+        {
+          "COUNT(DISTINCT p.subject_id)": 0
+        }
+      ]
+    }
+  ]
+}

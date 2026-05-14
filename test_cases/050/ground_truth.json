@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the title(s) of episodes written by aron eli coleite?",
+      "sql": "SELECT title FROM table_28215780_4 WHERE written_by = 'Aron Eli Coleite';",
+      "answer": [
+        {
+          "title": "Going Rogue"
+        },
+        {
+          "title": "Things You Can't Outrun"
+        },
+        {
+          "title": "Fastest Man Alive"
+        },
+        {
+          "title": "Going Rogue"
+        }
+      ]
+    }
+  ]
+}

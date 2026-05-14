@@ -1,0 +1,12 @@
+{
+  "test_case_name": "aircraft_022",
+  "description": "Database with tables from aircraft schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Show all destinations and the number of flights to each destination by a bar chart, rank in desc by the total number.",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

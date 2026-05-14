@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_15407_013",
+  "description": "Database with tables from table_15407 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the Date, when the Winner is Aaron Gustavson?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

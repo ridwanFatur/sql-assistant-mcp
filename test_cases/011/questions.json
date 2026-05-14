@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_30476_011",
+  "description": "Database with tables from table_30476 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the capacity for the Home Venue of the New Zealand Breakers club?",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

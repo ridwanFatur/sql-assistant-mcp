@@ -1,0 +1,12 @@
+{
+  "test_case_name": "cost_044",
+  "description": "Database with tables from cost schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is the name of the drug that was prescribed to patient 12938 within 2 days after having been diagnosed with a hx of gi malignancy nec in 03/last year?",
+      "category": "Filtering/Selection",
+      "difficulty": "Hard"
+    }
+  ]
+}

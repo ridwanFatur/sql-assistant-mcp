@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_12114_010",
+  "description": "Database with tables from table_12114 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the median household income in Valley County?",
+      "category": "Count/Aggregate",
+      "difficulty": "Easy"
+    }
+  ]
+}

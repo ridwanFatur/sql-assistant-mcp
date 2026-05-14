@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is diagnoses icd9 code of subject name kelly gallardo?",
+      "sql": "SELECT d.icd9_code FROM diagnoses_icd d WHERE d.subject_id IN (SELECT subject_id FROM patients);",
+      "answer": [
+        {
+          "icd9_code": "486"
+        }
+      ]
+    }
+  ]
+}

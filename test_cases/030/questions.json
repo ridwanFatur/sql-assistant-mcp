@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_203_282_030",
+  "description": "Database with tables from table_203_282 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what was the largest prize awarded to soviet song in 2004 ?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

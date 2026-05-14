@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "what are all the games released by fubra ?",
+      "sql": "SELECT \"name\" FROM table_204_700 WHERE \"developer\" = 'Fubra';",
+      "answer": [
+        {
+          "name": "Game 3"
+        },
+        {
+          "name": "Game 6"
+        },
+        {
+          "name": "Game 10"
+        },
+        {
+          "name": "Game 13"
+        },
+        {
+          "name": "Game 14"
+        },
+        {
+          "name": "Mystery Quest"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_20037_039",
+  "description": "Database with tables from table_20037 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the highest number won with a difference of 1?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Easy"
+    }
+  ]
+}

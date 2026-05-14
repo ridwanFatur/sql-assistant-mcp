@@ -1,0 +1,12 @@
+{
+  "test_case_name": "producer_037",
+  "description": "Database with tables from producer schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the director of the series ' House of Cards ' produced by Netflix ?",
+      "category": "General Query",
+      "difficulty": "Hard"
+    }
+  ]
+}

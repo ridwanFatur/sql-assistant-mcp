@@ -1,0 +1,15 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "since 3 years ago, what are the top three most common diagnoses that patients were diagnosed with during the same month after the diagnosis of acute respiratry failure?",
+      "sql": "SELECT d.icd9_code, COUNT(*) as cnt FROM diagnoses_icd d GROUP BY d.icd9_code ORDER BY cnt DESC LIMIT 3;",
+      "answer": [
+        {
+          "icd9_code": "486",
+          "cnt": 1
+        }
+      ]
+    }
+  ]
+}

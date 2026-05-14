@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the score for toronto visitor and record of 29-17-8",
+      "sql": "SELECT score FROM table_name_89 WHERE visitor = 'toronto' AND record = '29-17-8';",
+      "answer": [
+        {
+          "score": "5-2"
+        }
+      ]
+    }
+  ]
+}

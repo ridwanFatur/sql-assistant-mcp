@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_76_045",
+  "description": "Database with tables from table_name_76 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the termination of mission for appointed by of franklin pierce",
+      "category": "General Query",
+      "difficulty": "Easy"
+    }
+  ]
+}

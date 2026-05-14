@@ -1,0 +1,15 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is olle ahlunds club and his position ?",
+      "sql": "SELECT \"club\", \"pos.\" FROM table_203_692 WHERE \"name\" = 'Olle Ahlund';",
+      "answer": [
+        {
+          "club": "IFK Göteborg",
+          "pos.": "MF"
+        }
+      ]
+    }
+  ]
+}

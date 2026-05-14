@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Give me the comparison about meter_100 over the Time by a bar chart, show in ascending by the total number.",
+      "sql": "SELECT meter_100, Time FROM swimmer ORDER BY meter_100 ASC;",
+      "answer": [
+        {
+          "meter_100": 47.5,
+          "Time": "10:00"
+        },
+        {
+          "meter_100": 48.2,
+          "Time": "10:30"
+        },
+        {
+          "meter_100": 48.8,
+          "Time": "11:00"
+        }
+      ]
+    }
+  ]
+}

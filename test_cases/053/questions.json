@@ -1,0 +1,12 @@
+{
+  "test_case_name": "program_requirement_053",
+  "description": "Database with tables from program_requirement schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Which of the least difficult PreMajor courses has the largest class size ?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Hard"
+    }
+  ]
+}

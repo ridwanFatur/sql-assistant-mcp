@@ -1,0 +1,12 @@
+{
+  "test_case_name": "course_tags_count_017",
+  "description": "Database with tables from course_tags_count schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What classes can serve as MDE next semester ?",
+      "category": "Filtering/Selection",
+      "difficulty": "Hard"
+    }
+  ]
+}

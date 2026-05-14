@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the Date, when the Winner is Aaron Gustavson?",
+      "sql": "SELECT \"Date\" FROM table_15407 WHERE \"Winner\" = 'Aaron Gustavson';",
+      "answer": [
+        {
+          "Date": "2023-06-15"
+        }
+      ]
+    }
+  ]
+}

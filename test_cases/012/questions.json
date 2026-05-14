@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_33880_012",
+  "description": "Database with tables from table_33880 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Score of 3 - 2 had what record?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

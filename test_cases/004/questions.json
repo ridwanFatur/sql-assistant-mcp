@@ -1,0 +1,12 @@
+{
+  "test_case_name": "job_history_004",
+  "description": "Database with tables from job_history schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "For those employees who do not work in departments with managers that have ids between 100 and 200, return a bar chart about the distribution of hire_date and the average of salary bin hire_date by weekday.",
+      "category": "Statistics",
+      "difficulty": "Hard"
+    }
+  ]
+}

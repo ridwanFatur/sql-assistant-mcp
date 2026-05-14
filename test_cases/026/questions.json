@@ -1,0 +1,12 @@
+{
+  "test_case_name": "diagnoses_026",
+  "description": "Database with tables from diagnoses schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what is diagnoses icd9 code of subject name kelly gallardo?",
+      "category": "Filtering/Selection",
+      "difficulty": "Hard"
+    }
+  ]
+}

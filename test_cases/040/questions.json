@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_33_040",
+  "description": "Database with tables from table_name_33 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Position of fullback has what highest weight?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Easy"
+    }
+  ]
+}

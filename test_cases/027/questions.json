@@ -1,0 +1,12 @@
+{
+  "test_case_name": "diagnoses_icd_027",
+  "description": "Database with tables from diagnoses_icd schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "since 3 years ago, what are the top three most common diagnoses that patients were diagnosed with during the same month after the diagnosis of acute respiratry failure?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Hard"
+    }
+  ]
+}

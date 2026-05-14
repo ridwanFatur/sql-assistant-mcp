@@ -1,0 +1,12 @@
+{
+  "test_case_name": "procedures_028",
+  "description": "Database with tables from procedures schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "give me the number of patients whose ethnicity is white and icu stay id is 242681?",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

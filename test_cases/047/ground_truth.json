@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the class of team liqui moly equipe, which has less than 71 laps?",
+      "sql": "SELECT class FROM table_name_85 WHERE team = 'Liqui Moly Equipe' AND CAST(laps AS INTEGER) < 71;",
+      "answer": [
+        {
+          "class": "GT1"
+        },
+        {
+          "class": "GT2"
+        }
+      ]
+    }
+  ]
+}

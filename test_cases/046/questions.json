@@ -1,0 +1,12 @@
+{
+  "test_case_name": "event_046",
+  "description": "Database with tables from event schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Give me the comparison about meter_100 over the Time by a bar chart, show in ascending by the total number.",
+      "category": "Statistics",
+      "difficulty": "Hard"
+    }
+  ]
+}

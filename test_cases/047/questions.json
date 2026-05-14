@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_85_047",
+  "description": "Database with tables from table_name_85 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the class of team liqui moly equipe, which has less than 71 laps?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Name the termination of mission for appointed by of franklin pierce",
+      "sql": "SELECT termination_of_mission FROM table_name_76 WHERE appointed_by = 'Franklin Pierce';",
+      "answer": [
+        {
+          "termination_of_mission": "Died in Office"
+        },
+        {
+          "termination_of_mission": "Resigned"
+        },
+        {
+          "termination_of_mission": "Dismissed"
+        },
+        {
+          "termination_of_mission": "Resigned"
+        },
+        {
+          "termination_of_mission": "Recalled"
+        }
+      ]
+    }
+  ]
+}

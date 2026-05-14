@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_26006_003",
+  "description": "Database with tables from table_26006 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "What is the lowest position for a driver with 2 points?",
+      "category": "Ranking/Sorting",
+      "difficulty": "Easy"
+    }
+  ]
+}

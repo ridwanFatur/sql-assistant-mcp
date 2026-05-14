@@ -1,0 +1,12 @@
+{
+  "test_case_name": "products_for_hire_041",
+  "description": "Database with tables from products_for_hire schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many different product types are there?",
+      "category": "Count/Aggregate",
+      "difficulty": "Easy"
+    }
+  ]
+}

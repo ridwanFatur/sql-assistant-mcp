@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Which Emission (in nanometers) that has a molar mass of 1078 g/mol?",
+      "sql": "SELECT \"Emit  ( nm ) \" FROM table_78467 WHERE \"mass  ( g/mol ) \" = '1078';",
+      "answer": [
+        {
+          "Emit  ( nm ) ": "520"
+        }
+      ]
+    }
+  ]
+}

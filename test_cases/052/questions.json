@@ -1,0 +1,12 @@
+{
+  "test_case_name": "customers_052",
+  "description": "Database with tables from customers schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Find all the addresses in East Julianaside, Texas or in Gleasonmouth, Arizona.",
+      "category": "General Query",
+      "difficulty": "Hard"
+    }
+  ]
+}

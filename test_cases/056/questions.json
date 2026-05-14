@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_204_700_056",
+  "description": "Database with tables from table_204_700 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "what are all the games released by fubra ?",
+      "category": "Filtering/Selection",
+      "difficulty": "Easy"
+    }
+  ]
+}

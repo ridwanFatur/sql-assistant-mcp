@@ -1,0 +1,15 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What are the code and description of the least frequent detention type ?",
+      "sql": "SELECT r.detention_type_code, r.detention_type_description FROM Ref_Detention_Type r WHERE r.detention_type_code = (SELECT detention_type_code FROM Detention GROUP BY detention_type_code ORDER BY COUNT(*) ASC LIMIT 1);",
+      "answer": [
+        {
+          "detention_type_code": "CRM",
+          "detention_type_description": "Criminal"
+        }
+      ]
+    }
+  ]
+}

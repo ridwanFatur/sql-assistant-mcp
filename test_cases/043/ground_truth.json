@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who was the Worship Leader for the song that was 7:05 long?",
+      "sql": "SELECT \"Worship Leader\" FROM table_50429 WHERE \"Time\" = '7:05';",
+      "answer": [
+        {
+          "Worship Leader": "John Smith"
+        }
+      ]
+    }
+  ]
+}

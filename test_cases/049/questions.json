@@ -1,0 +1,12 @@
+{
+  "test_case_name": "ReviewTaskTypes_049",
+  "description": "Database with tables from ReviewTaskTypes schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Post Migration from and to. Displays number of post migrated per site",
+      "category": "Count/Aggregate",
+      "difficulty": "Hard"
+    }
+  ]
+}

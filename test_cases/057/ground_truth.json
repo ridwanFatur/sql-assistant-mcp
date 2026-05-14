@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many of the patients born before the year 2060 had pleural fluid tested by the lab?",
+      "sql": "SELECT COUNT(DISTINCT l.subject_id) FROM labevents l JOIN patients p ON l.subject_id = p.subject_id WHERE p.dob < '2060-01-01';",
+      "answer": [
+        {
+          "COUNT(DISTINCT l.subject_id)": 1
+        }
+      ]
+    }
+  ]
+}

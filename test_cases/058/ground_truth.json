@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Bar chart x axis customer status code y axis the total number, and could you order Y-axis in descending order?",
+      "sql": "SELECT customer_status_code, COUNT(*) FROM Customers GROUP BY customer_status_code ORDER BY COUNT(*) DESC;",
+      "answer": [
+        {
+          "customer_status_code": "Active",
+          "COUNT(*)": 2
+        },
+        {
+          "customer_status_code": "Inactive",
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

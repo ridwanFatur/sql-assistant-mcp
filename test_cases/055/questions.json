@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_40457_055",
+  "description": "Database with tables from table_40457 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Who is the third member of the third conservative party, and the second liberal party?",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

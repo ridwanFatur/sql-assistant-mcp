@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many different product types are there?",
+      "sql": "SELECT COUNT(DISTINCT product_type_code) FROM products_for_hire;",
+      "answer": [
+        {
+          "COUNT(DISTINCT product_type_code)": 8
+        }
+      ]
+    }
+  ]
+}

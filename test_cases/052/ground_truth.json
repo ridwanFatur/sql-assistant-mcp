@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Find all the addresses in East Julianaside, Texas or in Gleasonmouth, Arizona.",
+      "sql": "SELECT * FROM addresses WHERE (city = 'East Julianaside' AND state_province_county = 'Texas') OR (city = 'Gleasonmouth' AND state_province_county = 'Arizona');",
+      "answer": [
+        {
+          "address_id": 1.0,
+          "address_content": "123 Main St",
+          "city": "East Julianaside",
+          "zip_postcode": "75001",
+          "state_province_county": "Texas",
+          "country": "USA",
+          "other_address_details": "None"
+        },
+        {
+          "address_id": 2.0,
+          "address_content": "456 Oak Ave",
+          "city": "Gleasonmouth",
+          "zip_postcode": "85001",
+          "state_province_county": "Arizona",
+          "country": "USA",
+          "other_address_details": "None"
+        }
+      ]
+    }
+  ]
+}

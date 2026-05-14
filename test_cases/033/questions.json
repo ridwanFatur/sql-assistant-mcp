@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_39155_033",
+  "description": "Database with tables from table_39155 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "Which Game has a Record of 8 2 0, and Points larger than 16?",
+      "category": "Multi-Table Join",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Return a bar chart about the number bookings for each apartment number.",
+      "sql": "SELECT a.apt_number, COUNT(*) FROM Apartment_Bookings ab JOIN Apartments a ON ab.apt_id = a.apt_id GROUP BY a.apt_number;",
+      "answer": [
+        {
+          "apt_number": "101",
+          "COUNT(*)": 2
+        },
+        {
+          "apt_number": "102",
+          "COUNT(*)": 1
+        },
+        {
+          "apt_number": "201",
+          "COUNT(*)": 1
+        }
+      ]
+    }
+  ]
+}

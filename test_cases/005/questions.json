@@ -1,0 +1,12 @@
+{
+  "test_case_name": "table_name_74_005",
+  "description": "Database with tables from table_name_74 schema",
+  "questions": [
+    {
+      "id": 0,
+      "question": "How many weeks had an attendance of over 68,000?",
+      "category": "Count/Aggregate",
+      "difficulty": "Easy"
+    }
+  ]
+}

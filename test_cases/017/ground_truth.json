@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "What classes can serve as MDE next semester ?",
+      "sql": "SELECT c.name FROM course c WHERE c.course_id IN (SELECT course_id FROM area WHERE area = 'MDE');",
+      "answer": []
+    }
+  ]
+}
